@@ -36,6 +36,7 @@ function App() {
         <Portfolio/> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route path="/kawula" element={<Kawula />} />
           <Route path="/gamestore" element={<Gamestore />} />
           <Route path="/sonokeling" element={<Sonokeling />} />

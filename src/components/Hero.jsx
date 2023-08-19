@@ -11,14 +11,14 @@ import RobyHidayatPDF from '../assets/RobyHidayat.pdf';
 function Hero() {
   React.useEffect(() => {
     AOS.init({
-      offset: 150, 
-      duration: 800, 
-      easing: 'ease-in-sine', 
+      offset: 150, // Offset dari bottom viewport sebelum animasi dimulai
+      duration: 800, // Durasi animasi (dalam milidetik)
+      easing: 'ease-in-sine', // Jenis easing yang digunakan
     });
   }, []);
   return (
     <>
-    <section className='h-screen w-full flex items-center justify-between tablet:px-14 px-12 pb-36 desktop:px-[100px] mx-auto'>
+    <section name='home' className='h-screen w-full flex items-center justify-between tablet:px-14 px-12 pb-36 desktop:px-[100px] mx-auto'>
       <div className="desktop:text-left mt-52 ">
         <h1 className="text-xs tablet:text-sm desktop:text-base font-light leading-tight mb-5 text-[#D8D9DA]" data-aos="zoom-out-right">Welcome to My Portfolio</h1>
         <p className="text-lg tablet:text-2xl desktop:text-4xl mb-5 text-black font-medium" data-aos="zoom-in" >Hi, I am <span className="font-bold tablet:text-4xl text-lg desktop:text-5xl text-[#FFF6E0]" data-aos="zoom-in">Roby Hidayat</span></p>
@@ -48,7 +48,7 @@ function Hero() {
           </a>
         </div>
       </div>
-      <div className="desktop:block mt-[122px] bg-gradient-to-t bg-[#61677A] h-52 w-28 desktop:h-[500px] desktop:w-[232px] desktop:mt-0 tablet:h-[380px] tablet:w-[160px] absolute right-12 tablet:right-14 desktop:right-24 z-[-20] top-28 tablet:top-10 shadow-2xl shadow-[#61677A]" data-aos="zoom-out-left">
+      <div className="desktop:block mt-[122px] bg-gradient-to-t bg-[#61677A] h-52 w-28 desktop:h-[500px] desktop:w-[232px] desktop:mt-0 tablet:h-[380px] tablet:w-[160px] absolute right-12 tablet:right-14 desktop:right-24 z-[-20] desktop:top-28 smartphone:top-[24vh] tablet:top-10 shadow-2xl shadow-[#61677A]" data-aos="zoom-out-left">
       </div>
       <div className="desktop:block mt-[184px] tablet:mt-[208px] tablet:absolute tablet:right-11 desktop:absolute desktop:right-[88px] desktop:top-[-108px] mb-10 -mr-2 tablet:-top-10" data-aos="zoom-out-left">
         <img
@@ -81,7 +81,7 @@ function Hero() {
 </p>
 
           <p className="desktop:text-xl text-base tablet:text-base mt-4 smartphone:text-center tablet:text-left " data-aos="fade-left">
-            During my studies, I have learned the fundamentals of computer science and programming, including understanding user needs, creating prototypes, visual design, as well as testing and evaluation techniques. I also have skills in using various design tools such as Adobe Illustrator, whimsical, and Figma.
+            During my studies, I have learned the fundamentals of computer science and programming, including understanding user needs, creating prototypes, visual design, as well as testing and evaluation techniques. I also have skills in using various design tools such as Adobe Illustrator, Whimesical, and Figma.
           </p>
           <p className="desktop:text-xl text-base tablet:text-base mt-4 smartphone:text-center tablet:text-left" data-aos="fade-left">
             I aspire to make meaningful contributions and continue to get work experience in the UI/UX design industry. I am very enthusiastic about participating in exciting projects and growing as a professional.

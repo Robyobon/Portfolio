@@ -12,7 +12,7 @@ import Foto10 from '../assets/Rh/10.png'
 
 const Rh = () => {
   return (
-    <section className='rh overflow-hidden'>
+    <section className='overflow-hidden' id='rh'>
         <div className='w-screen relative '>
           <div className="flex justify-center">
           <div className='px-[100px] mx-[100px] mt-10 smartphone:px-0 smartphone:mx-10'>

@@ -2,9 +2,9 @@ import Foto1 from '../assets/Herb Enthusiast/Herb 1.png'
 
 
 
-const Palmbeach = () => {
+const Herb = () => {
   return (
-    <section className='herb overflow-hidden'>
+    <section className='overflow-hidden' id='herb'>
         <div className='w-screen relative '>
           <div className="flex justify-center">
           <div className='px-[100px] mx-[100px] mt-10 smartphone:px-0 smartphone:mx-10'>
@@ -20,4 +20,4 @@ const Palmbeach = () => {
   )
 }
 
-export default Palmbeach
+export default Herb
