@@ -1,6 +1,6 @@
 import Banner from '../assets/Kawula/BannerKawula.png'
 import Sitemap from '../assets/Kawula/saitemapkw.png'
-import Inspiration from '../assets/Kawula/inspirasi.png'
+import Inspiration from '../assets/Kawula/Inspirationkw.png'
 import UserFlow from '../assets/Kawula/Userflowkw.png'
 import Wireframe1 from '../assets/Kawula/Wirframekw.png'
 import Mockup1 from '../assets/Kawula/Mockupkw.png'
@@ -33,7 +33,7 @@ const Kawula = () => {
               <h1 className='text-[32px] pt-10 text-center'>Goals</h1>
               <article className='text-xl pt-6 smartphone:text-sm'>Increasing Brand Awareness. Showing that Kawula is a premium brand, convincing people that their products are excellent while maintaining high quality. Avoiding the perception of Kawula as just another clothing store among thousands of clothing stores in Indonesia. Having a website that demonstrates the seriousness and professionalism of Kawula. </article>
               <h3 className='text-[24px] pt-10'>Website Inspiration</h3>
-              <img src={Inspiration} alt="gambar sitemap" className='pt-6' />
+              <img src={Inspiration} alt="gambar insprasi" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>Sitemap</h3>
               <img src={Sitemap} alt="gambar Userflow" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>User Flow</h3>
