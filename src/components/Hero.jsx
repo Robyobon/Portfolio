@@ -18,7 +18,7 @@ function Hero() {
   }, []);
   return (
     <>
-    <section name='home' className='h-screen w-full flex items-center justify-between tablet:px-14 px-12 pb-36 desktop:px-[100px] mx-auto'>
+    <section className='h-screen w-full flex items-center justify-between tablet:px-14 px-12 pb-36 desktop:px-[100px] mx-auto'>
       <div className="desktop:text-left mt-52 ">
         <h1 className="text-xs tablet:text-sm desktop:text-base font-light leading-tight mb-5 text-[#D8D9DA]" data-aos="zoom-out-right">Welcome to My Portfolio</h1>
         <p className="text-lg tablet:text-2xl desktop:text-4xl mb-5 text-black font-medium" data-aos="zoom-in" >Hi, I am <span className="font-bold tablet:text-4xl text-lg desktop:text-5xl text-[#FFF6E0]" data-aos="zoom-in">Roby Hidayat</span></p>
