@@ -48,7 +48,7 @@ function Hero() {
           </a>
         </div>
       </div>
-      <div className="desktop:block mt-[122px] bg-gradient-to-t bg-[#61677A] h-52 w-28 desktop:h-[500px] desktop:w-[232px] desktop:mt-0 tablet:h-[380px] tablet:w-[160px] absolute right-12 tablet:right-14 desktop:right-24 z-[-20] desktop:top-28 smartphone:top-[24vh] tablet:top-10 shadow-2xl shadow-[#61677A]" data-aos="zoom-out-left">
+      <div className="desktop:block mt-[122px] bg-gradient-to-t bg-[#61677A] h-52 w-28 desktop:h-[500px] desktop:w-[232px] desktop:mt-0 tablet:h-[380px] tablet:w-[160px] absolute right-12 tablet:right-14 desktop:right-24 z-[-20] desktop:top-28 smartphone:top-[19vh] tablet:top-10 shadow-2xl shadow-[#61677A]" data-aos="zoom-out-left">
       </div>
       <div className="desktop:block mt-[184px] tablet:mt-[208px] tablet:absolute tablet:right-11 desktop:absolute desktop:right-[88px] desktop:top-[-108px] mb-10 -mr-2 tablet:-top-10" data-aos="zoom-out-left">
         <img
