@@ -37,12 +37,12 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
-          <Route path="//kawula" element={<Kawula />} />
-          <Route path="//gamestore" element={<Gamestore />} />
-          <Route path="//sonokeling" element={<Sonokeling />} />
-          <Route path="/home/rh" element={<Rh />} />
-          <Route path="//palmbeach" element={<Palmbeach />} />
-          <Route path="//herb" element={<Herb />} />
+          <Route path="/Portfolio/kawula" element={<Kawula />} />
+          <Route path="/Portfolio/gamestore" element={<Gamestore />} />
+          <Route path="/Portfolio/sonokeling" element={<Sonokeling />} />
+          <Route path="/Portfolio/rh" element={<Rh />} />
+          <Route path="/Portfolio/palmbeach" element={<Palmbeach />} />
+          <Route path="/Portfolio/herb" element={<Herb />} />
         </Routes>
         {/* <Footer /> */}
       </motion.div>
