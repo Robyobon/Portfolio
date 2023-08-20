@@ -7,7 +7,7 @@ import Guide from '../assets/Sonokeling/Guid.png'
 
 const Sonokeling = () => {
   return (
-    <section className='overflow-hidden' id='sonokeling'>
+    <section className='overflow-hidden sonokeling'>
         <div className='w-screen relative '>
           <div className="flex justify-center">
             <img src={Banner1} alt="banner" className='desktop:h-[100vh] desktop:w-[76vw]' />

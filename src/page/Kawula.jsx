@@ -8,7 +8,7 @@ import Mockup1 from '../assets/Kawula/Mockupkw.png'
 
 const Kawula = () => {
   return (
-    <section className='overflow-hidden' id='kawula'>
+    <section className='overflow-hidden kawula'>
         <div className='w-screen relative '>
           <div className="flex justify-center">
             <img src={Banner} alt="banner" className='desktop:h-[100vh]' />

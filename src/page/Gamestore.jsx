@@ -10,7 +10,7 @@ import Mockup3 from '../assets/Gamestore/Mockup3.png'
 
 const Gamestore = () => {
   return (
-    <section className='overflow-hidden' id='gamestore'>
+    <section className='overflow-hidden gamestore'>
         <div className='w-screen relative '>
           <div className=" flex justify-center">
             <img src={Banner} alt="banner" className='desktop:h-[100vh]' />

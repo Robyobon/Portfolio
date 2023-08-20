@@ -1,11 +1,5 @@
 {
-  "homepage": "https://Robyobon.github.io/Portfolio/",
-  "kawulapgage": "https://Robyobon.github.io/Portfolio/kawula",
-  "gamestorepage": "https://Robyobon.github.io/Portfolio/gamestore",
-  "sonokelingpage": "https://Robyobon.github.io/Portfolio/sonokeling",
-  "rhpage": "https://Robyobon.github.io/Portfolio/rh",
-  "palmbeachpage": "https://Robyobon.github.io/Portfolio/palmbeach",
-  "herbpage": "https://Robyobon.github.io/Portfolio/herb",
+  "homepage": "https://Robyobon.github.io/Portfolio",
   "name": "portfolioroby",
   "private": true,
   "version": "0.0.0",
