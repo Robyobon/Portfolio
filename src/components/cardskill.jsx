@@ -25,7 +25,7 @@ function Skills() {
     { name: 'CSS 3', icon: <SiCss3 />, level: 'Intermediate' },
     { name: 'JavaScript', icon: <SiJavascript />, level: 'Basic' },
     { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 'Basic' },
-    { name: 'React JS', icon: <SiReact />, level: 'Intermediate' },
+    { name: 'React JS', icon: <SiReact />, level: 'Basic' },
   ];
 
   return (
