@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import Fotter from '../components/footer'
 function Home() {
   return (
-    <div className='home slider overflow-hidden'>
+    <div className=' slider overflow-hidden'>
         <Navbar />
         <Hero />
         <Cardskill />

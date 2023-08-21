@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 // import Navbar from './components/Navbar';
 // import Hero from './components/Hero';
@@ -28,15 +28,14 @@ function App() {
 
   return (
     <div className='app'>
-    <BrowserRouter>
+    <HashRouter>
       <motion.div>
         {/* <Navbar /> */}
         {/* <Hero />
         <Cardskill />
         <Portfolio/> */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/kawula" element={<Kawula />} />
           <Route path="/gamestore" element={<Gamestore />} />
           <Route path="/sonokeling" element={<Sonokeling />} />
@@ -46,7 +45,7 @@ function App() {
         </Routes>
         {/* <Footer /> */}
       </motion.div>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
