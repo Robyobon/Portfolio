@@ -77,14 +77,14 @@ function Hero() {
         </div>
         <div className="tablet:pt-0 desktop:mr-20 desktop:-ml-40 desktop:pt-0 smartphone:px-10 tablet:-ml-40 tablet:mr-12 text-white desktop:-mt-16">
         <p className="desktop:text-xl tablet:text-base text-ms smartphone:text-center tablet:text-left mt-4" data-aos="fade-left">
-  Hello! Let me introduce myself, my name is Roby Hidayat. I am a fresh graduate with a degree in Computer Engineering (S1 Teknik Informatika) who is passionate about the world of User Interface (UI) and User Experience (UX) Design.
+        Halo! Izinkan saya memperkenalkan diri, nama saya Roby Hidayat. Saya adalah seorang lulusan baru dengan gelar dalam Teknik Informatika yang bersemangat tentang dunia Desain Grafis dan UI/UX Design.
 </p>
 
           <p className="desktop:text-xl text-base tablet:text-base mt-4 smartphone:text-center tablet:text-left " data-aos="fade-left">
-            During my studies, I have learned the fundamentals of computer science and programming, including understanding user needs, creating prototypes, visual design, as well as testing and evaluation techniques. I also have skills in using various design tools such as Adobe Illustrator, Whimesical, and Figma.
+          Selama studi saya, saya telah mempelajari dasar-dasar ilmu komputer dan pemrograman, termasuk memahami kebutuhan pengguna, membuat prototipe, desain visual, serta teknik pengujian dan evaluasi. Saya juga memiliki keterampilan dalam menggunakan berbagai alat desain seperti Adobe Illustrator, Whimesical, dan Figma.
           </p>
           <p className="desktop:text-xl text-base tablet:text-base mt-4 smartphone:text-center tablet:text-left" data-aos="fade-left">
-            I aspire to make meaningful contributions and continue to get work experience in the UI/UX design industry. I am very enthusiastic about participating in exciting projects and growing as a professional.
+          Saya bercita-cita untuk memberikan kontribusi yang bermakna dan terus mendapatkan pengalaman kerja di industri desain grafis dan UI/UX desain. Saya sangat antusias untuk berpartisipasi dalam proyek-proyek menarik dan tumbuh sebagai seorang profesional.
           </p>
         </div>
       </div>

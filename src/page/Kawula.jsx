@@ -28,10 +28,10 @@ const Kawula = () => {
             <div className='text-white'>
             <h1 className='text-[40px] text-center pt-20 smartphone:text-2xl'>Kawula</h1>
             <article className='text-xl pt-6 smartphone:text-sm'>
-            Kawula is a new outerwear clothing brand in Indonesia. They are modern, young, and always innovating with new outerwear designs for the young generation. The majority of their customers are millennials.
+            Kawula adalah merek pakaian luar baru di Indonesia. Mereka modern, muda, dan selalu berinovasi dengan desain pakaian luar baru untuk generasi muda. Sebagian besar pelanggan mereka adalah milenial.
             </article>
               <h1 className='text-[32px] pt-10 text-center'>Goals</h1>
-              <article className='text-xl pt-6 smartphone:text-sm'>Increasing Brand Awareness. Showing that Kawula is a premium brand, convincing people that their products are excellent while maintaining high quality. Avoiding the perception of Kawula as just another clothing store among thousands of clothing stores in Indonesia. Having a website that demonstrates the seriousness and professionalism of Kawula. </article>
+              <article className='text-xl pt-6 smartphone:text-sm'>Meningkatkan Kesadaran Merek. Menunjukkan bahwa Kawula adalah merek premium, meyakinkan orang bahwa produk mereka sangat baik sambil tetap mempertahankan kualitas tinggi. Menghindari persepsi Kawula sebagai hanya sebuah toko pakaian lain di antara ribuan toko pakaian di Indonesia. Memiliki situs web yang menunjukkan keseriusan dan profesionalisme  </article>
               <h3 className='text-[24px] pt-10'>Website Inspiration</h3>
               <img src={Inspiration} alt="gambar insprasi" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>Sitemap</h3>
