@@ -36,7 +36,7 @@ function Hero() {
   download="CVRobyHidayat.pdf"
 >
   <button className="Button-glow smartphone:bg-transparent hover:bg-[#61677A] border border-[#61677A] text-[#61677A] hover:text-white font-medium py-2 tablet:py-2 tablet:px-4 px-4 rounded shadow-sm shadow-black">
-    Download CV
+    BELI SEKARANG
   </button>
 </a>
         <div className="flex mt-4 space-x-6">

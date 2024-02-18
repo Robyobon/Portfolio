@@ -15,6 +15,9 @@ import Sonokeling from './page/Sonokeling';
 import Rh from './page/Rh';
 import Palmbeach from './page/Palmbeach';
 import Herb from './page/Herb';
+import Dormire from './page/Dormire';
+import Video from './page/Video';
+import WPAP from './page/WPAP';
 // import Portfolio from './components/Portfolio';
 
 function App() {
@@ -32,7 +35,7 @@ function App() {
       <motion.div>
         {/* <Navbar /> */}
         {/* <Hero />
-        <Cardskill />
+        <Cardskill />                                                                                    
         <Portfolio/> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -42,6 +45,9 @@ function App() {
           <Route path="/rh" element={<Rh />} />
           <Route path="/palmbeach" element={<Palmbeach />} />
           <Route path="/herb" element={<Herb />} />
+          <Route path='/dormire' element={<Dormire />} />
+          <Route path='/video' element={<Video />} />
+          <Route path='/wpap' element={<WPAP />} />
         </Routes>
         {/* <Footer /> */}
       </motion.div>

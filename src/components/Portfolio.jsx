@@ -4,6 +4,10 @@ import gambar3 from "../assets/Sonokeling/banner (2).png";
 import gambar4 from "../assets/11.jpg";
 import gambar5 from "../assets/12.jpg";
 import gambar6 from "../assets/13.jpg";
+import gambar7 from "../assets/Dormire/Dormire1.png";
+import gambar8 from "../assets/vidioo.png";
+import gambar9 from "../assets/WPAP2.png";
+import gambar10 from "../assets/Landingpage.png";
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -43,11 +47,41 @@ const Portfolio = () => {
       animation: 'fade-up',
     },
     {
+      title: 'Landing Page',
+      gambar: gambar10,
+      project: 'Landing Page ',
+      projectURL: 'https://robyobon.github.io/LandingpageRJM/', 
+      animation: 'fade-right',
+    },
+    {
       title: 'Rh Logo',
       gambar: gambar4,
       project: 'logo design',
       projectURL: '/rh', 
       animation: 'fade-right',
+    },
+   
+   
+    {
+      title: 'Dormire Design',
+      gambar: gambar7,
+      project: 'T-shirt design',
+      projectURL: '/dormire', 
+      animation: 'fade-up',
+    },
+    {
+      title: 'Video Editing',
+      gambar: gambar8,
+      project: 'Video Editing',
+      projectURL: '/Video', 
+      animation: 'fade-up',
+    },
+    {
+      title: 'WPAP',
+      gambar: gambar9,
+      project: 'WPAP Design',
+      projectURL: '/wpap', 
+      animation: 'fade-up',
     },
     {
       title: 'Palm Beach Logo',
