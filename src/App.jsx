@@ -18,6 +18,7 @@ import Herb from './page/Herb';
 import Dormire from './page/Dormire';
 import Video from './page/Video';
 import WPAP from './page/WPAP';
+import Secondlify from './page/Secondlify';
 // import Portfolio from './components/Portfolio';
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path='/dormire' element={<Dormire />} />
           <Route path='/video' element={<Video />} />
           <Route path='/wpap' element={<WPAP />} />
+          <Route path='/secondlify' element={<Secondlify />} />
         </Routes>
         {/* <Footer /> */}
       </motion.div>

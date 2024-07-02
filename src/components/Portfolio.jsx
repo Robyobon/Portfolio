@@ -13,6 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Projectitem from './Projectitem';
+import Secondlifycover from '../assets/Cover secondlify.svg'
 
 
 const Portfolio = () => {
@@ -25,6 +26,13 @@ const Portfolio = () => {
   }, []);
 
   const projects = [
+    {
+      title: 'Secondlify',
+      gambar:Secondlifycover,
+      project: 'Web Design',
+      projectURL: '/secondlify',
+      animation: 'zoom-in',
+    },
     {
       title: 'Kawula Mood',
       gambar:gambar2,

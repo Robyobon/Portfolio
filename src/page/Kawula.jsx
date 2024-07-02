@@ -4,6 +4,7 @@ import Inspiration from '../assets/Kawula/Inspirationkw.png'
 import UserFlow from '../assets/Kawula/Userflowkw.png'
 import Wireframe1 from '../assets/Kawula/Wirframekw.png'
 import Mockup1 from '../assets/Kawula/Mockupkw.png'
+import DesignSystem from '../assets/Kawula/Design System.svg'
 
 
 const Kawula = () => {
@@ -38,6 +39,8 @@ const Kawula = () => {
               <img src={Sitemap} alt="gambar Userflow" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>User Flow</h3>
               <img src={UserFlow} alt="gambar wirframe" className='pt-6' />
+              <h3 className='text-[24px] pt-16 '>Design System</h3>
+              <img src={DesignSystem} alt="gambar wirframe" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>Wireframe</h3>
               <img src={Wireframe1} alt="gambar Wireframe 1" className='pt-6' />
               <h3 className='text-[24px] pt-16 '>Mockup</h3>
