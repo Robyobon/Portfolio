@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Projectitem from './Projectitem';
 import Secondlifycover from '../assets/Cover secondlify.svg'
+import Profilixcover from '../assets/COVER (2).svg'
 
 
 const Portfolio = () => {
@@ -26,6 +27,13 @@ const Portfolio = () => {
   }, []);
 
   const projects = [
+    {
+      title: 'Profilix',
+      gambar:Profilixcover,
+      project: 'Web Design',
+      projectURL: '/profilix',
+      animation: 'zoom-in',
+    },
     {
       title: 'Secondlify',
       gambar:Secondlifycover,

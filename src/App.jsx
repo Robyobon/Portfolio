@@ -19,6 +19,7 @@ import Dormire from './page/Dormire';
 import Video from './page/Video';
 import WPAP from './page/WPAP';
 import Secondlify from './page/Secondlify';
+import Profilix from './page/Profilix';
 // import Portfolio from './components/Portfolio';
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path='/video' element={<Video />} />
           <Route path='/wpap' element={<WPAP />} />
           <Route path='/secondlify' element={<Secondlify />} />
+          <Route path='/profilix' element={<Profilix />} />
         </Routes>
         {/* <Footer /> */}
       </motion.div>
