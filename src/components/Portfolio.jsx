@@ -13,7 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Projectitem from './Projectitem';
-import Secondlifycover from '../assets/Cover secondlify.svg'
+import Secondlifycover from '../assets/Secondlify/COVER (4).svg'
 import Profilixcover from '../assets/COVER (2).svg'
 
 

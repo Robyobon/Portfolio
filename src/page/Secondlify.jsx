@@ -13,7 +13,7 @@ import contoh from '../assets/Secondlify/Halaman Awal Sebelum Login.svg'
 
 const Secondlify = () => {
   return (
-    <section className='overflow-hidden gamestore'>
+    <section className='overflow-hidden secondlify'>
         <div className='w-screen relative'>
           <div className="flex justify-center">
             <img src={Banner} alt="banner" className='desktop:h-[100vh] w-full' />
