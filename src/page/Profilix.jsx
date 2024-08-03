@@ -6,6 +6,7 @@ import Gambar4 from '../assets/Profilix/MacBook Pro and iPhone 15 Pro Mockup.svg
 import Gambar5 from '../assets/Profilix/Group 1000003990.svg'
 import Gambar6 from '../assets/Profilix/Group 1000003991.svg'
 import Gambar7 from '../assets/Profilix/Group 1000003992.svg'
+import Gambar8 from '../assets/Profilix/iPad Pro 12.9-inch Space Gray Mockup.svg'
 
 const Profilix = () => {
   return (
@@ -25,7 +26,9 @@ const Profilix = () => {
               <img src={Gambar2} alt="gambar Userflow" className='' />
               <img src={Gambar3} alt="gambar Userflow" className='relative bottom-96 smartphone:bottom-16' />
               <img src={Gambar4} alt="gambar Wireframe 1" className='relative bottom-[540px] smartphone:bottom-16' />
+            
               <img src={Gambar5} alt="gambar Userflow" className='relative bottom-[740px] smartphone:bottom-16' />
+                <img src={Gambar8} alt="gambar Wireframe 1" className='relative bottom-[540px] smartphone:bottom-16' />
               <img src={Gambar6} alt="gambar Userflow" className='relative bottom-[740px] smartphone:bottom-16' />
               <img src={Gambar7} alt="gambar Userflow" className='relative bottom-[740px] smartphone:bottom-16' />
             </div>
