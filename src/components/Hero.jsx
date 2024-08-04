@@ -6,7 +6,7 @@ import foto from '../assets/herooooooo 1 (1).png'
 import profilePic from '../assets/aboute.png'
 import '../index.css'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import CVRobyHidayatPDF from '../assets/cvrobyhidayat.pdf';
+import CVRobyHidayatPDF from '../assets/CVRobyHidayat (4).pdf';
 
 function Hero() {
   React.useEffect(() => {
@@ -33,7 +33,7 @@ function Hero() {
           </div>
           <a
             href={CVRobyHidayatPDF}
-            download="cvrobyhidayat.pdf"
+            download="CVRobyHidayat (4).pdf"
           >
             <button className="Button-glow smartphone:bg-transparent hover:bg-[#61677A] border border-[#61677A] text-[#61677A] hover:text-white font-medium py-2 tablet:py-2 tablet:px-4 px-4 rounded shadow-sm shadow-black">
               Download CV
