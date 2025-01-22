@@ -7,7 +7,7 @@ import Gambar5 from '../assets/Profilix/Group 1000003990.svg'
 import Gambar6 from '../assets/Profilix/Group 1000003991.svg'
 import Gambar7 from '../assets/Profilix/Group 1000003992.svg'
 import Gambar8 from '../assets/Profilix/iPad Pro 12.9-inch Space Gray Mockup.svg'
-import Gambar9 from '../assets/Profilix/Company Profile 2025.svg'
+import Gambar9 from '../assets/Profilix/Portfolio 2025.svg'
 
 const Profilix = () => {
   return (
